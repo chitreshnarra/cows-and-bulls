@@ -2,12 +2,13 @@ import random
 s='abcdefghijklmnopqrstuvwxyz'
 l=int(input('how many characters do you want guess?'))
 
+print('the word may not have any meaning')
 word=''.join(random.sample(s,l))
 
 letters=tuple(word)
 x=len(word)
 
-print(x,'is the length of the word')
+print('there are',x,'letters in the word')
 
 
 
